@@ -4,3 +4,11 @@ refactor: Réorganisation du code sans changer son fonctionnement
 style:    Mise en forme (CSS, formatage...)
 docs:     Documentation
 chore:    Maintenance (configuration, dépendances...)
+
+add
+create
+update
+remove
+rename
+fix
+refactor

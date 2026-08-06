@@ -1,3 +1,8 @@
+> ⚠️ **Projet personnel en cours de développement**
+>
+> Carnet2Bivouac est développé progressivement afin d'apprendre et d'appliquer les bonnes pratiques du développement web moderne.
+> Chaque fonctionnalité est pensée, documentée et intégrée avant de passer à la suivante.
+
 # 🏕️ Carnet2Bivouac
 
 > *Les aventures ne se rêvent pas, elles se vivent.*
@@ -7,11 +12,6 @@ Carnet2Bivouac est une application web dédiée aux passionnés de randonnée et
 Son objectif est simple : partager des récits authentiques, rassurer les personnes qui souhaitent se lancer dans leur premier bivouac, transmettre des conseils pratiques et donner envie d'explorer les plus beaux sentiers de France, toujours dans le respect de la nature.
 
 ---
-
-> ⚠️ **Projet personnel en cours de développement**
->
-> Carnet2Bivouac est développé progressivement afin d'apprendre et d'appliquer les bonnes pratiques du développement web moderne.
-> Chaque fonctionnalité est pensée, documentée et intégrée avant de passer à la suivante.
 
 ## 🌲 La philosophie
 
