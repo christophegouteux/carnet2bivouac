@@ -1,7 +1,7 @@
 export default function HeroTitle() {
   return (
     <>
-      <h1>Carnet 2 Bivouac</h1>
+      <h1 className="heroTitle">Carnet d'aventures</h1>
     </>
   );
 }

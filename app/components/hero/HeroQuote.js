@@ -1,5 +1,5 @@
 export default function HeroQuote({quote}) {
   return (
-    <q>{ quote }</q>
+    <q className="heroQuote">{ quote }</q>
   );
 }

@@ -26,12 +26,61 @@ body {
 }
 
 .hero {
+  position: relative;
  height: 100vh;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
  gap: 2rem;
+ background-image: url("/images/background/background_hero.png");
+ background-size: cover;
+ background-position: center;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.heroTitle {
+  color: #f3e4c3;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+
+.heroQuote {
+  max-width: 700px;
+  padding: 0 1.5rem;
+  color: #f3e4c3;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-style: italic;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.heroCounter {
+  color: #f3e4c3;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+  padding: 0.6rem 1.2rem;
+  border: 1px solid rgba(243, 228, 195, 0.55);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .scrollIndicator {

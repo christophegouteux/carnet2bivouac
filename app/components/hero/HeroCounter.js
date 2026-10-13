@@ -1,5 +1,5 @@
-export default function HeroCounter({ bivouacCount }) {
+export default function HeroCounter({ adventureCount }) {
   return (
-      <p>{bivouacCount} bivouac{bivouacCount > 1 && ('s') }</p>
+      <p className="heroCounter">{adventureCount} aventure{adventureCount > 1 && ('s') }</p>
   );
 }
